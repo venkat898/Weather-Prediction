@@ -1,1 +1,3 @@
 # Weather-Prediction
+This model will use linear regression, which will predict the high and low temperatures as a linear combination of all the features. Linear regression does not use weather classification data of each day because this algorithm cannot be used with classification data. Therefore initially in this project only eight parameters are selected for use which are maximum temperature, minimum temperature, mean humidity, and mean atmospheric.
+The second algorithm used is a type of functional regression. It looks for historical weather patterns which are similar to the present day weather patterns, and then it predicts the future weather condition based upon the data of the historical weather patterns.
